@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #fafbfc;
+  font-family: OpenSans, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.site-container {
+  margin: auto;
+  max-width: 1200px;
+  width: 80%;
+}
+
+#response-container {
+  margin-top: 3em;
+  text-align: center;
+}
+
+#results_list {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  li {
+    // display: flex;
+    padding: 0.3em;
+    text-decoration: none;
+  }
+}

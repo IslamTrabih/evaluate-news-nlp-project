@@ -1,0 +1,18 @@
+// header {
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 10px 40px;
+// }
+
+header {
+  background: #2e3d49;
+  padding: 2em 0;
+  h1,
+  h3 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 {
+      bottom: 0.4em;
+    }
+  }
+}

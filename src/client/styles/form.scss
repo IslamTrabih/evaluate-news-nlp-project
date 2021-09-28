@@ -1,0 +1,38 @@
+// form {
+//     border: 1px solid #545454;
+//     border-radius: 3px;
+//     padding: 40px;
+// }
+
+// input {
+//     padding: 5px 20px;
+//     width: 100%;
+//     line-height: 16px;
+//     margin: 10px 0;
+// }
+
+#search-form {
+  display: flex;
+  padding: 1em 0;
+}
+
+#search-keyword {
+  border: none;
+  border-radius: 4px;
+  flex-grow: 1;
+  margin-right: 1.5em;
+  padding: 1.25em 2em;
+}
+
+#submit-btn {
+  background-color: #15c26b;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 1em 4em;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #12a159;
+  }
+}
